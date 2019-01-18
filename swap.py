@@ -7,5 +7,8 @@ if __name__ == __main__:
 	print("values before swapping : x = " + str(x) + "   y = " + str(y))
 
 	# swapping...
+	temp = x
+	x = y
+	y = temp
 
 	print("values after swapping : x = " + str(x) + "   y = " + str(y))	
